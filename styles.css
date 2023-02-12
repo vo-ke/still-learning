@@ -1,6 +1,53 @@
-h1{font: weight 300px;
+#top{font: weight 900px;
     font-weight: lighter;
-    background-color: blue;
-    text-align: center;}
-    
+    text-align: left;
+    margin: 30px;
+    background-color: brown;
+    margin: 0px;
+    border: 400px brown;
+    display: block;
+    padding: 30px;
+margin-bottom: 20px;
+}
 
+article li {
+    list-style: none;
+    margin-top: 3px;
+}
+*{
+box-sizing:border-box;
+margin: 0px;
+border: 0px;
+}
+a:link, a:visited{
+    background-color: darkgreen;
+    font-size: large;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    color: aliceblue;
+    text-align: center;
+    border: 5px;
+    margin-bottom: 3px;
+ font-style: italic;
+    padding: 6px;
+
+}
+
+
+a:hover, a:active{
+    background-color: gray;
+    color: purple;
+}
+
+
+.box{
+    width: 300px;
+    background-color: blue;
+    display: block;
+    margin-top: 90px;
+    border: 3px solid red;
+    padding: 7px;
+    margin-left: 0px;
+    p
+}
