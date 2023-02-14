@@ -1,26 +1,64 @@
-#top{font: weight 900px;
-    font-weight: lighter;
-    text-align: left;
-    margin: 30px;
-    background-color: brown;
-    margin: 0px;
+*{
+    margin:0px;
     box-sizing: border-box;
 }
 
 header{
-margin: 0px;
+margin bottom: 20px;
     font-size: 30px;
     text-align: center;
     background-color: brown;
     display: block;
     color: azure;
-    padding: 15px;
-
-}
+    padding: 15px;}
 
 p{
     box-sizing: border-box;
-    width: 50%;
-    padding: 10px;
-    float: left;
+    background-color: aqua;
+    color: beige;
+    width: 290px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+    border: 1.5px solid green;
+}
+
+.row{
+    width:100%;
+}
+
+@media (min-width:1200px)
+{
+    .colb1, .colb2, .colb3, .colb4, .colb5, .colb6, .colb7, .colb8, .colb9, .colb10, .colb11, .colb12 {
+        float: left;
+        border: 1.5px solid green;
+
+    
+    }
+    
+    .colb1{width: 8.33%;}
+    .colb2{width: 16,66%;}
+    .colb3{width: 25%;}
+    .colb4{width: 33%;}
+    .colb5{width: 41.66%;}
+    .colb6{width: 50%;}
+    .colb7{width: 58.33;}
+    .colb8{width: 66.66%;}
+    .colb9{width: 74.99%;}
+    .colb10{width: 83.33%}
+    .colb11{width: 91.66%;}
+    .colb12{width: 100%;}
+}
+
+@media (min-width:940px) and (max-width:1199px)
+{
+    .cols1, .cols6, .cols12{
+        float: left;
+        border: 1.5px solid green;
+    }
+    .cols1{width: 8.33%;}
+    .cols6{width: 50%;}
+    .cols12{width: 100%;}
 }
